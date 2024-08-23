@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Art Fair</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="./index.html"><img src="./logo.jpg" alt="Logo" /></a>
+      <ul>
+        <a href="./about.html" class="navitem-link"><li>About</li></a>
+        <a href="./events.html" class="navitem-link"><li>Events</li></a>
+        <a href="./fairs.html" class="navitem-link"><li>Fairs</li></a>
+        <a href="./service.html" class="navitem-link"><li>Service</li></a>
+        <a href="./partners.html" class="navitem-link"><li>Partners</li></a>
+        <a href="./press.html" class="navitem-link"><li>Press</li></a>
+        <a href="./ordinals.html" class="navitem-link"><li>Ordinals</li></a>
+        <a href="./the collector's club.html" class="navitem-link">
+          <li>The Collector's Club</li></a
+        >
+        <a href="./radar.html" class="navitem-link"><li>Radar</li></a>
+      </ul>
+    </nav>
+
+    <!-- Hero Section  -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./carousel1.webp" class="d-block w-100" alt="1st slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel1-text">
+              <h1>
+                Collector's Club <br />
+                House Ordinals
+              </h1>
+            </div>
+            <div class="carousel1-button">
+              <a href="./the collector's club.html" class="carousel1-link"
+                ><p>Join Us</p></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./carousel2.webp" class="d-block w-100" alt="2st slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel2-text"><h1>Digital Art Fair 2023</h1></div>
+            <div class="carousel2-button">
+              <a href="" class="carousel2-link"><p>Fair Recap</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./carousel3.webp" class="d-block w-100" alt="3st slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel3-text">
+              <h1>
+                Digital Art Fair x Phillips <br />
+                Online Auction
+              </h1>
+            </div>
+            <div class="carousel3-button">
+              <a href="" class="carousel3-link"><p>Read Press Release</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./carousel4.webp" class="d-block w-100" alt="4th slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carousel4-text"><h1>Inspire Series Panels</h1></div>
+            <div class="carousel4-button">
+              <a href="" class="carousel4-link"><p>Watch Here</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Sticky Section  -->
+    <div class="sticky-section">
+      <p>Advancing Art and Culture through Technology</p>
+    </div>
+
+    <!-- About Section  -->
+    <div class="about">
+      <div class="about-left">
+        <h1>ABOUT <br />DIGITAL FAIR</h1>
+        <p>
+          Digital Art Fair is the leading Web 3.0 annual art fair in the world
+          of the digital art era. Showcasing some of the most innovative and
+          exciting digital art and NFTs from around the globe. The fair provides
+          a platform for emerging and established artists to exhibit their work,
+          and for art enthusiasts and collectors to discover and acquire new
+          digital artwork. With the vision to cultivate and inspire a new
+          generation of art collectors to embrace the use of digital technology
+          to explore the beauty of art and culture.
+        </p>
+        <a href="./about.html"><button>About Us</button></a>
+      </div>
+      <div class="about-right">
+        <img
+          src="https://static.wixstatic.com/media/1c88c4_9ef129fd1c6046e69b7d41b281ff7de4~mv2.jpg/v1/fill/w_929,h_710,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1c88c4_9ef129fd1c6046e69b7d41b281ff7de4~mv2.jpg"
+          alt="about image"
+        />
+      </div>
+    </div>
+
+    <!-- Middle Section  -->
+    <div class="middle">
+      <h1>ETHOS OF DIGITAL ART FAIR</h1>
+      <p>
+        As a pioneering art platform in a dynamic and rapidly evolving landscape
+        of art, the Digital Art Fair firmly anchors itself upon <br> the three
+        cardinal ethos of sustainability, inclusivity, and equality.
+      </p>
+    </div>
+
+    <!-- Poster Section  -->
+    <div class="poster">
+      <div class="poster1-bg">
+        <div class="poster-no1">
+          <h2>EQUALITY</h2>
+          <p>
+            Using Digital Art & Culture as a medium to advocate for gender and
+            LGBTQ equality.
+          </p>
+        </div>
+      </div>
+      <div class="poster2-bg">
+        <div class="poster-no2">
+          <h2>SUBSTAINABILITY</h2>
+          <p>
+            Promote the importance and urgency of protecting the planet and
+            sustainability.
+          </p>
+        </div>
+      </div>
+      <div class="poster3-bg">
+        <div class="poster-no3">
+          <h2>INCLUSIVITY</h2>
+          <p>
+            Providing education and opportunities for young artists, art
+            practitioners and art collectors to learn and connect with Art &
+            Tech.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="shop">
+      <h1>Shop</h1>
+    </div>
+
+    <!-- Footer Section  -->
+    <footer>
+      <div class="footer-left">
+        <h3>DIGITAL ART FAIR</h3>
+        <div class="footer-icon">
+          <a href="" class="fb"><i class="fa-brands fa-facebook"></i></a>
+          <a href="" class="x"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="yt"><i class="fa-brands fa-youtube"></i></a>
+          <a href="" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>
+          General Enquiry: <a href="" class="email">info@digitalartfair.io</a>
+          <br />
+          Partnership:
+          <a href="" class="email">partnership@digitalartfair.io</a> <br />
+          VIP: <a href="" class="email">vip@digitalartfair.io</a> <br />
+          Media: <a href="" class="email">media@digitalartfair.io</a>
+        </p>
+        <h4>© 2024 BY DIGITAL ART FAIR</h4>
+      </div>
+      <div class="footer-right">
+        <h3>SUBCRIBE</h3>
+        <p>Sign up to our newsletter to stay up to date with all</p>
+        <div class="footer-right-design"><p>things Digital Art Fair!</p></div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
